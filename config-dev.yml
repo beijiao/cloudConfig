@@ -1,16 +1,16 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/djmall?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/p2p?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis-plus:
-  type-aliases-package: com.dj.bc.pojo
+  type-aliases-package: com.dj.p2p.pojo
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true # \u9A7C\u5CF0\u6620\u5C04
 
 logging:
   level:
-    com.dj.bc.mapper: DEBUG
+    com.dj.p2p.mapper: DEBUG
