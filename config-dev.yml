@@ -9,7 +9,6 @@ spring:
       host: localhost
       #password: redispassword
       port: 6379
-      databas: 0
       pool:
         max-idle: 100
         min-idle: 1
